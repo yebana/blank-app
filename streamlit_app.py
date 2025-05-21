@@ -112,8 +112,7 @@ with col1:
     st.metric("Nota de Acceso (hasta 10)", f"{nota_acceso:.3f}")
 
 with col2:
-    #st.metric("Nota Final (hasta 14)", f"{nota_final:.3f}")
-    st.markdown(f"**:redNota Final (sobre 14) :** :red[{nota_final:.2f}]")
+    st.metric("Nota Final (hasta 14)", f"{nota_final:.3f}")
 
 # Mostrar notas específicas con las dos mejores en rojo
 st.markdown("#### 📝 Desglose de Notas Específicas")
